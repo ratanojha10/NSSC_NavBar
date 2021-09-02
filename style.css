@@ -1,1 +1,40 @@
-#
+.box1{
+	position: absolute;
+	height: 95%;
+	width: 90%;
+	border: 2px solid red;
+	margin: 0;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	}
+.box2{
+	position: absolute;
+	height: 95%;
+	width: 90%;
+	border: 2px solid blue;
+	margin: 0;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	}
+.box3{
+	position: absolute;
+	height: 95%;
+	width: 90%;
+	border: 2px solid green;
+	margin: 0;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.box4{
+	position: absolute;
+	height: 95%;
+	width: 90%;
+	border: 2px solid yellow;
+	margin: 0;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
