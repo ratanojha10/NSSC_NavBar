@@ -1,40 +1,61 @@
-.box1{
-	position: absolute;
-	height: 95%;
-	width: 90%;
+.box1, .box2, .box3, .box4{
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+	height: 80%;
+	width: 80%;
 	border: 2px solid red;
-	margin: 0;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	}
+	align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.box1{
+    opacity: 1;
+    background-color: bisque;
+}
 .box2{
-	position: absolute;
-	height: 95%;
-	width: 90%;
-	border: 2px solid blue;
-	margin: 0;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	}
+    background-color: cadetblue;
+}
 .box3{
-	position: absolute;
-	height: 95%;
-	width: 90%;
-	border: 2px solid green;
-	margin: 0;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+    background-color: cornflowerblue;
 }
 .box4{
-	position: absolute;
-	height: 95%;
-	width: 90%;
-	border: 2px solid yellow;
-	margin: 0;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+    background-color: darkgrey;
+}
+.box2, .box3, .box4{
+    display: none;
+}
+
+.boxes{
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    height: 95vh;
+    width: 98vw;
+    flex-direction: row;
+}
+.buttons{
+    display: flex;
+    font-size: 30px;
+    margin-top: 20vh;
+    margin-left: 5vw;
+}
+.buttons ol li{
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: khaki;
+    border: solid 2px red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
 }
